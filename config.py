@@ -183,6 +183,11 @@ available_setting = {
     "Minimax_group_id": "",
     "Minimax_base_url": "",
     "web_port": 9899,
+    # Example配置
+    "example_api_key": "",
+    "example_base_url": "",
+    "example_arg1": "",
+    "example_arg2": "",
 }
 
 

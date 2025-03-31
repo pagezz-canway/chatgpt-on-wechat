@@ -16,6 +16,10 @@ def create_bot(bot_type):
         # return BaiduUnitBot()
         from bot.baidu.baidu_wenxin import BaiduWenxinBot
         return BaiduWenxinBot()
+    
+    elif bot_type == const.EXAMPLE:
+        from bot.example.example_bot import ExampleBot
+        return ExampleBot()
 
     elif bot_type == const.CHATGPT:
         # ChatGPT 网页端web接口
