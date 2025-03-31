@@ -48,3 +48,13 @@ EXAMPLE = "example"
                 self.btype["chat"] = const.EXAMPLE
 ```
 注意：如果 EXAMPLE 大模型支持多种不同衍生模型，可以在判断条件里把 `[const.EXAMPLE]` 换成衍生模型标识列表。
+
+### 定义 Bot 需要的环境变量
+在 `config.py` 中定义新的 Bot 在部署时需要配置的环境变量信息。如：
+```
+    # Example配置
+    "example_api_key": "",
+    "example_base_url": "",
+    "example_arg1": "",
+    "example_arg2": "",
+```
